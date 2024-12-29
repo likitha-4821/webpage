@@ -1,1 +1,1 @@
-# webpage
+This project is a responsive webpage for Vadapalli Temple, showcasing its history, rituals, festivals, and visitor amenities. It features a navigation bar, Google Maps integration, and a gallery, ensuring an engaging user experience. Built with HTML and CSS, it combines functionality with aesthetics.
