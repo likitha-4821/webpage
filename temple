@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vadapalli Temple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #663399;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .main-content h2 {
+            font-size: 2rem;
+            color: #663399;
+        }
+
+        .main-content p {
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        iframe {
+            border: 0;
+            width: 100%;
+            height: 300px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vadapalli Temple</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#stories">Ancient Stories</a>
+        <a href="#timings">Timings</a>
+        <a href="#mysteries">Mysteries</a>
+        <a href="#rituals">Rituals</a>
+        <a href="#festivals">Festivals</a>
+        <a href="#tickets">Tickets</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <section id="about">
+            <h2>About Vadapalli Temple</h2>
+            <p>Vadapalli Temple, located in the serene region of Andhra Pradesh, is a revered shrine dedicated to Lord Shiva. Surrounded by lush greenery and the tranquil waters of the Godavari River, it is a center of devotion and spirituality. Devotees from across the country visit this temple to seek blessings and experience its divine aura.</p>
+        </section>
+
+        <section id="stories">
+            <h2>Ancient Stories</h2>
+            <p>The Vadapalli Temple is steeped in legend. One of the most popular tales involves a sage who performed intense penance to seek Lord Shiva's blessings. It is said that Lord Shiva appeared in his divine form, blessing the region with prosperity. Another legend speaks of the miraculous powers of the temple's sacred lingam, believed to fulfill the wishes of devotees who pray with pure devotion.</p>
+        </section>
+
+        <section id="timings">
+            <h2>Timings</h2>
+            <p><strong>Morning:</strong> 6:00 AM - 12:00 PM</p>
+            <p><strong>Evening:</strong> 4:00 PM - 8:00 PM</p>
+            <p>The temple remains closed between 12:00 PM and 4:00 PM for rituals and maintenance.</p>
+        </section>
+
+        <section id="mysteries">
+            <h2>Mysteries</h2>
+            <p>One of the temple's intriguing mysteries is the unexplainable sound of temple bells ringing during certain auspicious nights, even when no one is present. Devotees also believe that the sacred waters of the nearby Godavari River possess healing properties, and many have shared accounts of miraculous recoveries after visiting the temple.</p>
+        </section>
+
+        <section id="rituals">
+            <h2>Rituals</h2>
+            <p>Vadapalli Temple is known for its elaborate rituals, including daily abhishekams (holy bathing) of the Shiva lingam with sacred water, milk, and honey. Special poojas are conducted on Mondays and during festivals, attracting thousands of devotees.</p>
+        </section>
+
+        <section id="festivals">
+            <h2>Festivals and Special Occasions</h2>
+            <p>The temple celebrates various festivals with great fervor. Mahashivaratri is the most significant, marked by night-long vigils and special poojas. Other festivals include Karthika Masam and Ugadi, during which the temple is beautifully decorated and filled with spiritual energy.</p>
+        </section>
+
+        <section id="tickets">
+            <h2>Tickets</h2>
+            <p>Entry to the temple is free, but special pooja tickets are available for devotees who wish to participate in specific rituals:</p>
+            <ul>
+                <li><strong>Special Abhishekam:</strong> ₹500</li>
+                <li><strong>Archana:</strong> ₹200</li>
+                <li><strong>Annadanam Donation:</strong> ₹1000 and above</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="1.jpeg" alt="Temple View 1">
+                <img src="2.jpeg" alt="Temple View 2">
+                <img src="3.jpeg" alt="Temple View 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Address: Vadapalli Village, Andhra Pradesh, India</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Email: info@vadapallitemple.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1040749457286!2d78.04122081531764!3d17.37629618116006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb94c33adfbc1f%3A0x5b8d68b5a3a2a07b!2sVadapalli%20Temple!5e0!3m2!1sen!2sin!4v1689532807049!5m2!1sen!2sin" allowfullscreen></iframe>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Vadapalli Temple. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
